@@ -29,7 +29,7 @@
   color: white;
   display: flex;
   /* padding: 20px; */
-  height: 250px;
+  height: 450px;
 }
 
 .header {
@@ -96,7 +96,7 @@
   font-weight: bolder;
 }
 .Hero {
-  height: 200px;
+  height: 400px;
   background-color: white;
 }
 
@@ -134,4 +134,28 @@
   position: sticky;
   top: 0;
   z-index: 1000;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px 0px;
+  padding: 20px;
+  background-color: #e5e7eb;
+  height: 350px;
+}
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+}
+
+.person {
+  padding-left: 450px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #1f2937;
 }
