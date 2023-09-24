@@ -71,10 +71,61 @@
 }
 
 .footer {
+  margin-top: 40px;
   height: 60px;
   display: flex;
   background-color: #1f2937;
   color: white;
   justify-content: center;
   align-items: center;
+}
+
+.SignupButton {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 4.5px;
+  height: 20px;
+  width: 100px;
+  border: none;
+}
+
+.heroHeading {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+}
+.Hero {
+  height: 200px;
+  background-color: white;
+}
+
+.imageContainer {
+  height: 130px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.imageBox {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  border: solid 3px blue;
+}
+.subText {
+  height: 30px;
+  font-weight: 100;
+  font-size: 11px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.imageSection {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
 }
