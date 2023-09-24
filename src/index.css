@@ -32,11 +32,13 @@
   height: 250px;
 }
 
-.left h1 {
+.header {
   font-size: 48px;
   color: white;
   font-weight: bold;
   line-height: 35px;
+  margin-left: -120px;
+  border: solid 5px purple;
 }
 
 .left {
@@ -50,5 +52,20 @@
 .left h3 {
   font-size: 18px;
   color: lightgray;
-  padding-top: 20p3x;
+  padding-top: 20px;
+  border: solid 5px brown;
+}
+
+.right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right img {
+  border: solid 5px grey;
+  height: 70%;
+  width: 50%;
+  fill: grey;
+  text-align: center;
 }
