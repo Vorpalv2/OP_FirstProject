@@ -18,3 +18,37 @@
   list-style: none;
   gap: 20px;
 }
+
+.navbar img {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.mainSection {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  /* padding: 20px; */
+  height: 250px;
+}
+
+.left h1 {
+  font-size: 48px;
+  color: white;
+  font-weight: bold;
+  line-height: 35px;
+}
+
+.left {
+  border: 5px solid green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.left h3 {
+  font-size: 18px;
+  color: lightgray;
+  padding-top: 20px;
+}
