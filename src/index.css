@@ -38,11 +38,11 @@
   font-weight: bold;
   line-height: 35px;
   margin-left: -120px;
-  border: solid 5px purple;
+  /* border: solid 5px purple; */
 }
 
 .left {
-  border: 5px solid green;
+  /* border: 5px solid green; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -50,10 +50,12 @@
   width: 50%;
 }
 .left h3 {
+  display: flex;
+  align-items: flex-start;
   font-size: 18px;
   color: lightgray;
   padding-top: 20px;
-  border: solid 5px brown;
+  /* border: solid 5px brown; */
 }
 
 .right {
@@ -63,7 +65,7 @@
   justify-content: center;
 }
 .right img {
-  border: solid 5px grey;
+  /* border: solid 5px grey; */
   height: 70%;
   width: 50%;
   fill: grey;
@@ -158,4 +160,43 @@
   font-size: 20px;
   font-weight: bold;
   color: #1f2937;
+}
+
+.signin {
+  border: solid 1px #3882f6;
+  border-radius: 20px;
+  margin: 150px 30% 150px 30%;
+  background-color: #3882f6;
+  display: flex;
+  padding-left: 5%;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#box {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 5px;
+  padding-bottom: 50px;
+  font-size: large;
+}
+
+.CTAHeading {
+  padding: 40px 0 10px 0;
+  color: white;
+}
+
+.CTAParagraph {
+  color: white;
+}
+
+#sign {
+  background-color: #3882f6;
+  border: solid white 2px;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 30px;
 }
